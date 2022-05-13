@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item android:title="Admin">
+        <menu>
+            <item
+                android:id="@+id/manage_users"
+                android:title="Manage Users"/>
+
+            <item
+                android:id="@+id/manage_ann"
+                android:title="Manage Announcements"/>
+
+            <item
+                android:id="@+id/manage_not"
+                android:title="Manage Notices"/>
+        </menu>
+
+
+    </item>
+
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/announcemnets"
+        android:title="Announcements"/>
+
+    <item
+        android:id="@+id/notices"
+        android:title="Notices"/>
+
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"/>
+
+</menu>
