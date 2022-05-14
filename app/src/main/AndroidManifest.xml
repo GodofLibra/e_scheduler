@@ -10,18 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.e_scheduler">
         <activity
-            android:name=".DashboardSideNavAvtivity"
-            android:exported="false"
+            android:name=".MainActivity"
+            android:exported="true"
             android:label="@string/title_activity_dashboard_side_nav_avtivity"
-            android:theme="@style/Theme.e_scheduler.NoActionBar" />
-        <activity
-            android:name=".AnnouncementActivity"
-            android:exported="false" />
+            android:theme="@style/Theme.e_scheduler.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
         <activity
             android:name=".NoteInfoActivity"
-            android:exported="true" />
-        <activity
-            android:name=".NoticeActivity"
             android:exported="true" />
 
         <receiver
@@ -40,21 +43,6 @@
 
         <service android:name=".AlarmService" />
 
-        <activity
-            android:name=".LoginActivity"
-            android:exported="true" />
-        <activity
-            android:name=".SignUpActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".DashboardActivity"
-            android:exported="true" />
     </application>
 
 </manifest>

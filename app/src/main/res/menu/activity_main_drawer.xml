@@ -3,18 +3,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
-    </group>
+
+    <item android:title="Admin">
+        <menu>
+            <item
+                android:id="@+id/manage_users"
+                android:title="Manage Users" />
+
+            <item
+                android:id="@+id/manage_ann"
+                android:title="Manage Announcements" />
+
+            <item
+                android:id="@+id/manage_not"
+                android:title="Manage Notices" />
+        </menu>
+
+
+    </item>
+
+
+    <item
+        android:id="@+id/home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/announcementFragment"
+        android:title="Announcements" />
+
+    <item
+        android:id="@+id/noticeActivity"
+        android:title="Notices" />
+
+    <item
+        android:id="@+id/dashboardActivity"
+        android:title="Profile" />
+
 </menu>
