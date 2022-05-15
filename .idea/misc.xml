@@ -23,27 +23,27 @@
         <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/activity_notice.xml" value="0.264" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/activity_receipes.xml" value="0.264" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
-        <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/add_edit_note_dialog.xml" value="0.13269927536231885" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/add_edit_note_dialog.xml" value="0.264" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/content_dashboard_side_nav_avtivity.xml" value="0.2" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/fragment_announcement.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/fragment_dashboard.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/fragment_login.xml" value="0.264" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/fragment_schedule.xml" value="0.264" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/row_layout.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/row_layout_ann.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/row_layout_notice.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/row_layout_schedule.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/menu/side_nav_menu.xml" value="0.4" />
         <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/activity_announcement.xml" value="0.1796875" />
         <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/activity_dashboard.xml" value="0.1796875" />
         <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
         <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/activity_notice.xml" value="0.1796875" />
-        <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/add_edit_note_dialog.xml" value="0.1796875" />
         <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/app_bar_dashboard_side_nav_avtivity.xml" value="0.1796875" />
         <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/content_dashboard_side_nav_avtivity.xml" value="0.1796875" />
         <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/content_main_activity.xml" value="0.1796875" />
         <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/fragment_announcement.xml" value="0.1796875" />
         <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/fragment_dashboard.xml" value="0.1796875" />
-        <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/fragment_sign_up.xml" value="0.1796875" />
-        <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/nav_header_dashboard_side_nav_avtivity.xml" value="0.1796875" />
-        <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/row_layout_ann.xml" value="0.1796875" />
-        <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/row_layout_notice.xml" value="0.1796875" />
         <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/menu/activity_main_drawer.xml" value="0.1796875" />
         <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/menu/dashboard_side_nav_avtivity.xml" value="0.1796875" />
         <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/menu/menu.xml" value="0.1796875" />
