@@ -56,7 +56,7 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
                 CoroutineScope(Dispatchers.Main).launch {
                     try {
                         auth.signInWithEmailAndPassword(email, password).await()
-                        findNavController().navigate(R.id.dashboardActivity)
+                        findNavController().navigate(R.id.homeFragment)
                     } catch (e: Exception) {
                         Toast.makeText(requireActivity(), "${e.message}", Toast.LENGTH_SHORT).show()
                     }

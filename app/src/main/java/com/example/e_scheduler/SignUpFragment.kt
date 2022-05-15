@@ -39,7 +39,7 @@ class SignUpFragment : Fragment(R.layout.fragment_sign_up) {
 
 
         if (auth.currentUser != null) {
-            findNavController().navigate(R.id.dashboardActivity)
+            findNavController().navigate(R.id.homeFragment)
         }
 
         setStatusBarTransparent()

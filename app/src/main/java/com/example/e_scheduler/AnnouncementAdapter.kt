@@ -29,7 +29,7 @@ class AnnouncementAdapter(var context: Context, var noteList: ArrayList<Notice>)
 
     @SuppressLint("ViewHolder")
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
-        val view = LayoutInflater.from(context).inflate(R.layout.row_layout_notice, parent, false)
+        val view = LayoutInflater.from(context).inflate(R.layout.row_layout_ann, parent, false)
         val noteTitle = view.findViewById<TextView>(R.id.note_title)
         val noteSubTitle = view.findViewById<TextView>(R.id.note_sub_title)
         val noteDescription = view.findViewById<TextView>(R.id.note_description)
