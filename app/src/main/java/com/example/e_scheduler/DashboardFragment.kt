@@ -47,11 +47,11 @@ class DashboardFragment : Fragment(R.layout.fragment_dashboard) {
 
             Log.d("TAG_DASHBOARD", "onCreate: $user")
             tv_user_name.text = user.userName
-            tv_email.text = Firebase.auth.currentUser!!.email
+            tv_user_email.text = Firebase.auth.currentUser!!.email
             tv_name.text = user.userName
             tv_user_enr_number.text = user.enrNo
 //            tvUserBio.text = user.bio
-            tv_email.text = Firebase.auth.currentUser!!.email
+            tv_email_id.text = Firebase.auth.currentUser!!.email
 
 
         }

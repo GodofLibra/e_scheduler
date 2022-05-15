@@ -23,6 +23,7 @@
         android:id="@+id/bottomt_nav_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:menu="@menu/menu" />
 

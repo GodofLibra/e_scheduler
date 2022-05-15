@@ -6,5 +6,5 @@ data class User(
     val enrNo: String= "",
     val city: String = "",
     val email: String = "",
-    val Role: String = "Student"
+    val role: String = "Student"
 )

@@ -6,24 +6,29 @@ import android.os.Build
 import android.os.Bundle
 import android.view.View
 import android.view.WindowManager
+import android.widget.ListView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import com.google.android.material.textfield.TextInputEditText
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.fragment_notice.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.tasks.await
+import java.util.*
 
 class NoticeActivity : Fragment(R.layout.fragment_notice) {
 
     private val users = FirebaseFirestore.getInstance().collection("users")
+    private val notices = FirebaseFirestore.getInstance().collection("notice")
 
-    private lateinit var adapter: ReceipesAdapter
+    private lateinit var adapter: NoticeAdapter
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -33,13 +38,12 @@ class NoticeActivity : Fragment(R.layout.fragment_notice) {
         setStatusBarTransparent()
 
 
-        //lvNotes.adapter = adapter
+        getUpdatedList()
 
         CoroutineScope(Dispatchers.Main).launch {
             val user = users.document(FirebaseAuth.getInstance().currentUser!!.uid).get().await()
                 .toObject(User::class.java)!!
-            Toast.makeText(requireActivity(), user.Role, Toast.LENGTH_SHORT).show()
-            fab_add_note.isVisible = user.Role.trim() != "Student"
+            fab_add_note.isVisible = user.role.trim() != "Student"
         }
         fab_add_note.setOnClickListener {
             val dialog = Dialog(requireActivity())
@@ -47,12 +51,11 @@ class NoticeActivity : Fragment(R.layout.fragment_notice) {
             val noteTitle = dialog.findViewById<TextInputEditText>(R.id.et_note_title)
             val noteSubTitle = dialog.findViewById<TextInputEditText>(R.id.et_note_sub_title)
             val noteDescription = dialog.findViewById<TextInputEditText>(R.id.et_note_description)
-            val reciepeLink = dialog.findViewById<TextInputEditText>(R.id.et_note_link)
             val btnOk = dialog.findViewById<TextView>(R.id.btn_ok)
             btnOk.setOnClickListener {
                 if (noteTitle.text.toString().isEmpty() or noteSubTitle.text.toString()
                         .isEmpty() or noteDescription.text.toString()
-                        .isEmpty() or reciepeLink.text!!.isBlank()
+                        .isEmpty()
                 ) {
                     Toast.makeText(
                         requireActivity(),
@@ -60,20 +63,19 @@ class NoticeActivity : Fragment(R.layout.fragment_notice) {
                         Toast.LENGTH_SHORT
                     ).show()
                 } else {
-//                    val receipe = Receipes(
-//                        uid = id,
-//                        receipeName = noteTitle.text.toString(),
-//                        typeOfReceipe = noteSubTitle.text.toString(),
-//                        receipeDescription = noteDescription.text.toString(),
-//                        owner = Firebase.auth.currentUser!!.uid,
-//                        link = reciepeLink.text.toString()
-//                    )
+                    val id = UUID.randomUUID().toString()
+                    val notice = Notice(
+                        uid = id,
+                        title = noteTitle.text?.trim().toString(),
+                        subject = noteSubTitle.text?.trim().toString(),
+                        description = noteDescription.text?.trim().toString(),
+                        owner = Firebase.auth.currentUser!!.uid,
+                    )
 
                     CoroutineScope(Dispatchers.Main).launch {
-
-
+                        notices.document(id).set(notice).await()
+                        getUpdatedList()
                     }
-                    getUpdatedList()
                     dialog.dismiss()
                 }
             }
@@ -83,12 +85,11 @@ class NoticeActivity : Fragment(R.layout.fragment_notice) {
     }
 
     private fun getUpdatedList() {
-//        CoroutineScope(Dispatchers.Main).launch {
-//            val abc = receipes.get().await().toObjects(Receipes::class.java) as ArrayList
-//            adapter = ReceipesAdapter(application, abc)
-//            val lvNotes: ListView = findViewById(R.id.lv_notes)
-//            lvNotes.adapter = adapter
-//        }
+        CoroutineScope(Dispatchers.Main).launch {
+            val abc = notices.get().await().toObjects(Notice::class.java) as ArrayList
+            adapter = NoticeAdapter(requireContext(), abc)
+            lv_notes.adapter = adapter
+        }
     }
 
 //    private fun createNotificationChannel() {

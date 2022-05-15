@@ -7,17 +7,19 @@
     <fragment
         android:id="@+id/dashboardActivity"
         android:name="com.example.e_scheduler.DashboardFragment"
-        android:label="activity_dashboard"
-        tools:layout="@layout/fragment_dashboard" >
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard">
         <action
             android:id="@+id/action_dashboardActivity_to_loginActivity"
-            app:destination="@id/loginActivity" />
+            app:destination="@id/loginActivity"
+            app:popUpTo="@id/dashboardActivity"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/signUpActivity"
         android:name="com.example.e_scheduler.SignUpFragment"
-        android:label="activity_sign_up"
-        tools:layout="@layout/fragment_sign_up" >
+        android:label="Sign Up"
+        tools:layout="@layout/fragment_sign_up">
         <action
             android:id="@+id/action_signUpActivity_to_loginActivity"
             app:destination="@id/loginActivity" />
@@ -25,8 +27,8 @@
     <fragment
         android:id="@+id/loginActivity"
         android:name="com.example.e_scheduler.LoginFragment"
-        android:label="activity_login"
-        tools:layout="@layout/fragment_login" >
+        android:label="Login"
+        tools:layout="@layout/fragment_login">
         <action
             android:id="@+id/action_loginActivity_to_dashboardActivity"
             app:destination="@id/dashboardActivity" />
@@ -37,11 +39,11 @@
     <fragment
         android:id="@+id/announcementFragment"
         android:name="com.example.e_scheduler.AnnouncementFragment"
-        android:label="activity_announcement"
+        android:label="Announcemnet"
         tools:layout="@layout/fragment_announcement" />
     <fragment
         android:id="@+id/noticeActivity"
         android:name="com.example.e_scheduler.NoticeActivity"
-        android:label="activity_notice"
+        android:label="Notice"
         tools:layout="@layout/fragment_notice" />
 </navigation>

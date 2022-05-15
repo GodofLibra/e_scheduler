@@ -13,6 +13,7 @@ import androidx.navigation.ui.setupWithNavController
 import com.example.e_scheduler.databinding.ActivityMainBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
+import kotlinx.android.synthetic.main.app_bar_dashboard_side_nav_avtivity.*
 import kotlinx.android.synthetic.main.content_main_activity.*
 import kotlinx.android.synthetic.main.content_main_activity.view.*
 
@@ -47,8 +48,10 @@ class MainActivity : AppCompatActivity() {
         navController.addOnDestinationChangedListener { _, destination, _ ->
             if (destination.id in listOf(R.id.loginActivity, R.id.signUpActivity)) {
                 bottomt_nav_bar.visibility = View.GONE
+                toolbar.visibility = View.GONE
             } else {
                 bottomt_nav_bar.visibility = View.VISIBLE
+                toolbar.visibility = View.VISIBLE
             }
         }
 

@@ -49,7 +49,6 @@ class SignUpFragment : Fragment(R.layout.fragment_sign_up) {
         radio_group_roles.setOnCheckedChangeListener { _, i ->
             when (i) {
                 R.id.rb_admin -> role = "Admin"
-
                 R.id.rb_proff -> role = "Professor"
                 R.id.rb_student -> role = "Student"
             }
@@ -94,7 +93,7 @@ class SignUpFragment : Fragment(R.layout.fragment_sign_up) {
                                     enrNo = enrNum,
                                     city = city,
                                     email = email,
-                                    Role = role
+                                    role = role
                                 )
                                 users.document(uid).set(user).await()
 
