@@ -3,7 +3,9 @@ package com.example.e_scheduler
 import android.os.Bundle
 import android.view.Menu
 import android.view.View
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.isVisible
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
@@ -13,14 +15,22 @@ import androidx.navigation.ui.setupWithNavController
 import com.example.e_scheduler.databinding.ActivityMainBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.android.synthetic.main.app_bar_dashboard_side_nav_avtivity.*
 import kotlinx.android.synthetic.main.content_main_activity.*
 import kotlinx.android.synthetic.main.content_main_activity.view.*
+import kotlinx.android.synthetic.main.fragment_notice.*
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.tasks.await
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
+    private val users = FirebaseFirestore.getInstance().collection("users")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -44,6 +54,19 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         bottomt_nav_bar.setupWithNavController(navController)
         navView.setupWithNavController(navController)
+
+
+        CoroutineScope(Dispatchers.Main).launch {
+            val user = users.document(FirebaseAuth.getInstance().currentUser!!.uid).get().await()
+                .toObject(User::class.java)!!
+
+            val navMenu: Menu = navView.menu
+            navMenu.findItem(R.id.admin).isVisible = user.role != "Student"
+            navMenu.findItem(R.id.manage_users).isVisible = user.role != "Student"
+            navMenu.findItem(R.id.manage_ann).isVisible = user.role != "Student"
+            navMenu.findItem(R.id.manage_not).isVisible = user.role != "Student"
+
+        }
 
         navController.addOnDestinationChangedListener { _, destination, _ ->
             if (destination.id in listOf(R.id.loginActivity, R.id.signUpActivity)) {

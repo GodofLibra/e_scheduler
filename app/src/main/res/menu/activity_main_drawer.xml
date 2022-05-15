@@ -4,7 +4,9 @@
     tools:showIn="navigation_view">
 
 
-    <item android:title="Admin">
+    <item
+        android:id="@+id/admin"
+        android:title="Admin">
         <menu>
             <item
                 android:id="@+id/manage_users"
