@@ -43,6 +43,7 @@ class NoticeActivity : Fragment(R.layout.fragment_notice) {
         CoroutineScope(Dispatchers.Main).launch {
             val user = users.document(FirebaseAuth.getInstance().currentUser!!.uid).get().await()
                 .toObject(User::class.java)!!
+            Toast.makeText(requireActivity(), user.role, Toast.LENGTH_SHORT).show()
             fab_add_note.isVisible = user.role.trim() != "Student"
         }
         fab_add_note.setOnClickListener {
