@@ -53,6 +53,8 @@ class NoticeActivity : Fragment(R.layout.fragment_notice) {
             val noteSubTitle = dialog.findViewById<TextInputEditText>(R.id.et_note_sub_title)
             val noteDescription = dialog.findViewById<TextInputEditText>(R.id.et_note_description)
             val btnOk = dialog.findViewById<TextView>(R.id.btn_ok)
+            val btnCancel = dialog.findViewById<TextView>(R.id.btn_cancel)
+
             btnOk.setOnClickListener {
                 if (noteTitle.text.toString().isEmpty() or noteSubTitle.text.toString()
                         .isEmpty() or noteDescription.text.toString()
@@ -79,6 +81,10 @@ class NoticeActivity : Fragment(R.layout.fragment_notice) {
                     }
                     dialog.dismiss()
                 }
+            }
+
+            btnCancel.setOnClickListener {
+                dialog.dismiss()
             }
             dialog.show()
 

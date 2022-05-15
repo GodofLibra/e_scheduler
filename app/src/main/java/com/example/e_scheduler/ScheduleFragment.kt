@@ -42,6 +42,8 @@ class ScheduleFragment : Fragment(R.layout.fragment_schedule) {
             val subTitle = dialog.findViewById<TextInputLayout>(R.id.sub_title)
             val noteDescription = dialog.findViewById<TextInputEditText>(R.id.et_note_description)
             val btnOk = dialog.findViewById<TextView>(R.id.btn_ok)
+            val btnCancel = dialog.findViewById<TextView>(R.id.btn_cancel)
+
             noteSubTitle.visibility = View.GONE
             subTitle.visibility = View.GONE
             btnOk.setOnClickListener {
@@ -68,6 +70,10 @@ class ScheduleFragment : Fragment(R.layout.fragment_schedule) {
                     }
                     dialog.dismiss()
                 }
+            }
+
+            btnCancel.setOnClickListener {
+                dialog.dismiss()
             }
             dialog.show()
         }

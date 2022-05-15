@@ -54,6 +54,8 @@ class AnnouncementFragment : Fragment(R.layout.fragment_announcement) {
             val noteSubTitle = dialog.findViewById<TextInputEditText>(R.id.et_note_sub_title)
             val noteDescription = dialog.findViewById<TextInputEditText>(R.id.et_note_description)
             val btnOk = dialog.findViewById<TextView>(R.id.btn_ok)
+            val btnCancel = dialog.findViewById<TextView>(R.id.btn_cancel)
+
             btnOk.setOnClickListener {
                 if (noteTitle.text.toString().isEmpty() or noteSubTitle.text.toString()
                         .isEmpty() or noteDescription.text.toString()
@@ -80,6 +82,10 @@ class AnnouncementFragment : Fragment(R.layout.fragment_announcement) {
                     }
                     dialog.dismiss()
                 }
+            }
+
+            btnCancel.setOnClickListener {
+                dialog.dismiss()
             }
             dialog.show()
 
