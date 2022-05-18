@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.4.1@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/a5566c8db118eb4217b50b05c9f80d61/transformed/lifecycle-livedata-core-2.4.1/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/a5566c8db118eb4217b50b05c9f80d61/transformed/lifecycle-livedata-core-2.4.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/a5566c8db118eb4217b50b05c9f80d61/transformed/lifecycle-livedata-core-2.4.1/res" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/65ee00affb33c2fe30da3bae0bb6f7ca/transformed/lifecycle-livedata-core-2.4.1/res" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/65ee00affb33c2fe30da3bae0bb6f7ca/transformed/lifecycle-livedata-core-2.4.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/65ee00affb33c2fe30da3bae0bb6f7ca/transformed/lifecycle-livedata-core-2.4.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

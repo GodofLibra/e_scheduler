@@ -3,9 +3,10 @@
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/544d4114b272dccde52b1ab6148662e3/transformed/monitor-1.4.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0d258d37e58525bb4249563cd3f5ecd8/transformed/monitor-1.4.0/res" />
-      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/0d258d37e58525bb4249563cd3f5ecd8/transformed/monitor-1.4.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/0d258d37e58525bb4249563cd3f5ecd8/transformed/monitor-1.4.0/res" />
-      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/0d258d37e58525bb4249563cd3f5ecd8/transformed/monitor-1.4.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/6389ea09a9c29750b57f437ddf2b51cb/transformed/monitor-1.4.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/6389ea09a9c29750b57f437ddf2b51cb/transformed/monitor-1.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/6389ea09a9c29750b57f437ddf2b51cb/transformed/monitor-1.4.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/modules-2/files-2.1/androidx.test/monitor/1.4.0/2770e38fa6d39242c2fa2e9d2ca3275b1d9debd8/monitor-1.4.0-javadoc.jar!/" />

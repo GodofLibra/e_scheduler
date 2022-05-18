@@ -34,11 +34,11 @@
         android:title="Announcements" />
 
     <item
-        android:id="@+id/noticeActivity"
+        android:id="@+id/noticeFragment"
         android:title="Notices" />
 
     <item
-        android:id="@+id/dashboardActivity"
+        android:id="@+id/dashboardFragment"
         android:title="Profile" />
 
 </menu>

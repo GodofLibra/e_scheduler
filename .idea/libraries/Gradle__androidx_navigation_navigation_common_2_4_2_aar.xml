@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.navigation:navigation-common:2.4.2@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/0771593dcf84dadab70cb24b6f09dcac/transformed/navigation-common-2.4.2/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/0771593dcf84dadab70cb24b6f09dcac/transformed/navigation-common-2.4.2/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/0771593dcf84dadab70cb24b6f09dcac/transformed/navigation-common-2.4.2/res" />
+      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/84cfb79a5b8c7e215f47c326a6f30eef/transformed/navigation-common-2.4.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/84cfb79a5b8c7e215f47c326a6f30eef/transformed/navigation-common-2.4.2/res" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/84cfb79a5b8c7e215f47c326a6f30eef/transformed/navigation-common-2.4.2/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -26,7 +26,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         }
 
         cv_Notice.setOnClickListener {
-            findNavController().navigate(R.id.noticeActivity)
+            findNavController().navigate(R.id.noticeFragment)
         }
 
         cv_ann.setOnClickListener {
@@ -36,26 +36,30 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         CoroutineScope(Dispatchers.Main).launch {
             val notice = notices.get().await().toObjects(Notice::class.java)
             var str = ""
-            if (notice.size > 3) {
-                for (n in notice) {
-                    str += n.title + "\n"
-                }
-            } else {
-                for (n in notice) {
-                    str += n.title + "\n"
+            if (notice.size > 0) {
+                if (notice.size > 3) {
+                    for (n in notice) {
+                        str += n.title + "\n"
+                    }
+                } else {
+                    for (n in notice) {
+                        str += n.title + "\n"
+                    }
                 }
             }
             tv_notices.text = str
 
             val ann = announcements.get().await().toObjects(Announcement::class.java)
             str = ""
-            if (ann.size > 3) {
-                for (a in ann) {
-                    str += a.title + "\n"
-                }
-            } else {
-                for (a in ann) {
-                    str += a.title + "\n"
+            if (ann.size > 0) {
+                if (ann.size > 3) {
+                    for (a in ann) {
+                        str += a.title + "\n"
+                    }
+                } else {
+                    for (a in ann) {
+                        str += a.title + "\n"
+                    }
                 }
             }
             tv_announcements.text = str
@@ -63,13 +67,15 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
             val schedule = schedules.get().await().toObjects(Schedule::class.java)
             str = ""
-            if (schedule.size > 3) {
-                for (a in schedule) {
-                    str += a.title + "\n"
-                }
-            } else {
-                for (a in schedule) {
-                    str += a.title + "\n"
+            if (schedule.size > 0) {
+                if (schedule.size > 3) {
+                    for (a in schedule) {
+                        str += a.title + "\n"
+                    }
+                } else {
+                    for (a in schedule) {
+                        str += a.title + "\n"
+                    }
                 }
             }
             tv_schedules.text = str

@@ -23,7 +23,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.tasks.await
 import java.util.*
 
-class NoticeActivity : Fragment(R.layout.fragment_notice) {
+class NoticeFragment : Fragment(R.layout.fragment_notice) {
 
     private val users = FirebaseFirestore.getInstance().collection("users")
     private val notices = FirebaseFirestore.getInstance().collection("notice")
@@ -43,7 +43,6 @@ class NoticeActivity : Fragment(R.layout.fragment_notice) {
         CoroutineScope(Dispatchers.Main).launch {
             val user = users.document(FirebaseAuth.getInstance().currentUser!!.uid).get().await()
                 .toObject(User::class.java)!!
-            Toast.makeText(requireActivity(), user.role, Toast.LENGTH_SHORT).show()
             fab_add_note.isVisible = user.role.trim() != "Student"
         }
         fab_add_note.setOnClickListener {

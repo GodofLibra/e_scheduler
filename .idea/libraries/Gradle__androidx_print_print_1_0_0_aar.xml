@@ -1,14 +1,15 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.print:print:1.0.0@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/c40fbe7fc0586a941a189408ba8d67ed/transformed/print-1.0.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/b2edbb8c5f3549f3c699372a78716385/transformed/print-1.0.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a553b0ceb630df01d408c332db9983ce/transformed/print-1.0.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c40fbe7fc0586a941a189408ba8d67ed/transformed/print-1.0.0/res" />
       <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/c40fbe7fc0586a941a189408ba8d67ed/transformed/print-1.0.0/res" />
-      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/c40fbe7fc0586a941a189408ba8d67ed/transformed/print-1.0.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/c40fbe7fc0586a941a189408ba8d67ed/transformed/print-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/b2edbb8c5f3549f3c699372a78716385/transformed/print-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/b2edbb8c5f3549f3c699372a78716385/transformed/print-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/b2edbb8c5f3549f3c699372a78716385/transformed/print-1.0.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

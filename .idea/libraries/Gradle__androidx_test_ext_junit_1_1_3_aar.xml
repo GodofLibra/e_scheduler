@@ -3,9 +3,10 @@
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/08998df0cd8beef79f0dc752397a0a93/transformed/jetified-junit-1.1.3/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8182351d972bd22a8bc8d76fd2d6609c/transformed/jetified-junit-1.1.3/res" />
-      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/8182351d972bd22a8bc8d76fd2d6609c/transformed/jetified-junit-1.1.3/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/8182351d972bd22a8bc8d76fd2d6609c/transformed/jetified-junit-1.1.3/res" />
-      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/8182351d972bd22a8bc8d76fd2d6609c/transformed/jetified-junit-1.1.3/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/5c3436f9b59576e22b727d02a3e481cd/transformed/jetified-junit-1.1.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/5c3436f9b59576e22b727d02a3e481cd/transformed/jetified-junit-1.1.3/res" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/5c3436f9b59576e22b727d02a3e481cd/transformed/jetified-junit-1.1.3/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/modules-2/files-2.1/androidx.test.ext/junit/1.1.3/f138cf897cc1e024dd714073df04f2425d845104/junit-1.1.3-javadoc.jar!/" />

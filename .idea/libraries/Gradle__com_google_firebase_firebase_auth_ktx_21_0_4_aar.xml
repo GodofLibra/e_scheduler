@@ -3,8 +3,9 @@
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3a63537be13846f129d08dc898d4ec1e/transformed/jetified-firebase-auth-ktx-21.0.4/res" />
       <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/3a63537be13846f129d08dc898d4ec1e/transformed/jetified-firebase-auth-ktx-21.0.4/res" />
-      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/3a63537be13846f129d08dc898d4ec1e/transformed/jetified-firebase-auth-ktx-21.0.4/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/3a63537be13846f129d08dc898d4ec1e/transformed/jetified-firebase-auth-ktx-21.0.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/c8120b27a1918ab4ead5932d6e2d4f98/transformed/jetified-firebase-auth-ktx-21.0.4/res" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/c8120b27a1918ab4ead5932d6e2d4f98/transformed/jetified-firebase-auth-ktx-21.0.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/c8120b27a1918ab4ead5932d6e2d4f98/transformed/jetified-firebase-auth-ktx-21.0.4/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/modules-2/files-2.1/com.google.firebase/firebase-auth-ktx/21.0.4/bbd74c21503036c4d4bbc8308e0c1ccdb3605e0c/firebase-auth-ktx-21.0.4-javadoc.jar!/" />
