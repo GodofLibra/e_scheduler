@@ -4,8 +4,9 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9475faba37f265477382f5efa1108001/transformed/jetified-firebase-common-ktx-20.1.1/res" />
       <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/9475faba37f265477382f5efa1108001/transformed/jetified-firebase-common-ktx-20.1.1/res" />
       <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/debbf37cda1dd5f07ee4a4f2d66e650e/transformed/jetified-firebase-common-ktx-20.1.1/res" />
-      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/debbf37cda1dd5f07ee4a4f2d66e650e/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/debbf37cda1dd5f07ee4a4f2d66e650e/transformed/jetified-firebase-common-ktx-20.1.1/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/79b8c1c8c528b46abd20e59d4f6e11a8/transformed/jetified-firebase-common-ktx-20.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/79b8c1c8c528b46abd20e59d4f6e11a8/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/79b8c1c8c528b46abd20e59d4f6e11a8/transformed/jetified-firebase-common-ktx-20.1.1/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/modules-2/files-2.1/com.google.firebase/firebase-common-ktx/20.1.1/f744c080c46ac809bb0ef02e56399b9dbbbe4993/firebase-common-ktx-20.1.1-javadoc.jar!/" />

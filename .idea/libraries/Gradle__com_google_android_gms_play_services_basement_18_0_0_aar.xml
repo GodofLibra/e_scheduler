@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.android.gms:play-services-basement:18.0.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/a80897faaa5ce4c1abb88a1cf663eb0a/transformed/jetified-play-services-basement-18.0.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/a80897faaa5ce4c1abb88a1cf663eb0a/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/a80897faaa5ce4c1abb88a1cf663eb0a/transformed/jetified-play-services-basement-18.0.0/res" />
+      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/c69375d88a5c3f97691974b658e60dd0/transformed/jetified-play-services-basement-18.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/c69375d88a5c3f97691974b658e60dd0/transformed/jetified-play-services-basement-18.0.0/res" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/c69375d88a5c3f97691974b658e60dd0/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/modules-2/files-2.1/com.google.android.gms/play-services-basement/18.0.0/36bdff1deaba5efcc76d7e68ea06b3c50af7bc0/play-services-basement-18.0.0-javadoc.jar!/" />
