@@ -81,7 +81,7 @@ class ScheduleFragment : Fragment(R.layout.fragment_schedule) {
 
     private fun getUpdatedList() {
         CoroutineScope(Dispatchers.Main).launch {
-            val abc = schedules.get().await().toObjects(Schedule::class.java) as ArrayList
+            val abc = schedules.whereEqualTo("owner",Firebase.auth.currentUser?.uid).get().await().toObjects(Schedule::class.java) as ArrayList
             adapter = ScheduleAdapter(requireContext(), abc)
             lv_notes.adapter = adapter
         }

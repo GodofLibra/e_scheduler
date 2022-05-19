@@ -26,7 +26,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var navController: NavController
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
-    private val users = FirebaseFirestore.getInstance().collection("users")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -57,18 +56,6 @@ class MainActivity : AppCompatActivity() {
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration)
         NavigationUI.setupWithNavController(navView, navController)
 
-
-        CoroutineScope(Dispatchers.Main).launch {
-            val user = users.document(FirebaseAuth.getInstance().currentUser!!.uid).get().await()
-                .toObject(User::class.java)!!
-
-            val navMenu: Menu = navView.menu
-            navMenu.findItem(R.id.admin).isVisible = user.role != "Student"
-            navMenu.findItem(R.id.manage_users).isVisible = user.role != "Student"
-            navMenu.findItem(R.id.manage_ann).isVisible = user.role != "Student"
-            navMenu.findItem(R.id.manage_not).isVisible = user.role != "Student"
-
-        }
 
         navController.addOnDestinationChangedListener { _, destination, _ ->
             if (destination.id in listOf(R.id.loginActivity, R.id.signUpActivity)) {

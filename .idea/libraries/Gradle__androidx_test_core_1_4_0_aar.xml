@@ -3,17 +3,22 @@
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/69403c36cd1e4ec07fea24e2bc149d8b/transformed/jetified-core-1.4.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/caf6762e273217a744e2805af14e2510/transformed/jetified-core-1.4.0/res" />
-      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/caf6762e273217a744e2805af14e2510/transformed/jetified-core-1.4.0/res" />
-      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/4527711314b5667dab5c32aeb5ec32ae/transformed/jetified-core-1.4.0/res" />
-      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/6f04cd43fd633c36b07c4d95d8b40d05/transformed/jetified-core-1.4.0/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/6f04cd43fd633c36b07c4d95d8b40d05/transformed/jetified-core-1.4.0/res" />
-      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/6f04cd43fd633c36b07c4d95d8b40d05/transformed/jetified-core-1.4.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/caf6762e273217a744e2805af14e2510/transformed/jetified-core-1.4.0/res" />
+      <root url="file://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/4527711314b5667dab5c32aeb5ec32ae/transformed/jetified-core-1.4.0/res" />
+      <root url="file://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/6f04cd43fd633c36b07c4d95d8b40d05/transformed/jetified-core-1.4.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/6f04cd43fd633c36b07c4d95d8b40d05/transformed/jetified-core-1.4.0/res" />
+      <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/6f04cd43fd633c36b07c4d95d8b40d05/transformed/jetified-core-1.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6f04cd43fd633c36b07c4d95d8b40d05/transformed/jetified-core-1.4.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6f04cd43fd633c36b07c4d95d8b40d05/transformed/jetified-core-1.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6f04cd43fd633c36b07c4d95d8b40d05/transformed/jetified-core-1.4.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/modules-2/files-2.1/androidx.test/core/1.4.0/96b4d161def059d92989a352500d05d215c33d5e/core-1.4.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/modules-2/files-2.1/androidx.test/core/1.4.0/96b4d161def059d92989a352500d05d215c33d5e/core-1.4.0-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.test/core/1.4.0/96b4d161def059d92989a352500d05d215c33d5e/core-1.4.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/modules-2/files-2.1/androidx.test/core/1.4.0/2ba6b5cb5392cc99bdc6fb1f188c95497358fb62/core-1.4.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/modules-2/files-2.1/androidx.test/core/1.4.0/2ba6b5cb5392cc99bdc6fb1f188c95497358fb62/core-1.4.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.test/core/1.4.0/2ba6b5cb5392cc99bdc6fb1f188c95497358fb62/core-1.4.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

@@ -1,10 +1,15 @@
 package com.example.e_scheduler
 
 import android.os.Bundle
+import android.view.Menu
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.ktx.Firebase
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.fragment_home.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -16,6 +21,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
     private val notices = FirebaseFirestore.getInstance().collection("notice")
     private val announcements = FirebaseFirestore.getInstance().collection("announcement")
     private val schedules = FirebaseFirestore.getInstance().collection("schedule")
+    private val users = FirebaseFirestore.getInstance().collection("users")
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -31,6 +37,20 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
         cv_ann.setOnClickListener {
             findNavController().navigate(R.id.announcementFragment)
+        }
+
+
+
+        CoroutineScope(Dispatchers.Main).launch {
+            val user = users.document(FirebaseAuth.getInstance().currentUser!!.uid).get().await()
+                .toObject(User::class.java)!!
+
+            val navMenu: Menu = requireActivity().nav_view.menu
+            navMenu.findItem(R.id.admin).isVisible = user.role != "Student"
+            navMenu.findItem(R.id.manage_users).isVisible = user.role != "Student"
+            navMenu.findItem(R.id.manage_ann).isVisible = user.role != "Student"
+            navMenu.findItem(R.id.manage_not).isVisible = user.role != "Student"
+
         }
 
         CoroutineScope(Dispatchers.Main).launch {
@@ -65,7 +85,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
             tv_announcements.text = str
 
 
-            val schedule = schedules.get().await().toObjects(Schedule::class.java)
+            val schedule = schedules.whereEqualTo("owner", Firebase.auth.currentUser?.uid).get().await().toObjects(Schedule::class.java)
             str = ""
             if (schedule.size > 0) {
                 if (schedule.size > 3) {

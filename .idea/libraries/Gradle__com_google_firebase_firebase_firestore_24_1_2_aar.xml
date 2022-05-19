@@ -2,17 +2,22 @@
   <library name="Gradle: com.google.firebase:firebase-firestore:24.1.2@aar">
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/def80f6c26615b576385b4df7a207e0d/transformed/jetified-firebase-firestore-24.1.2/res" />
-      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/def80f6c26615b576385b4df7a207e0d/transformed/jetified-firebase-firestore-24.1.2/res" />
-      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/9f1dd48f871daf5c7b7e2fa727a399c1/transformed/jetified-firebase-firestore-24.1.2/res" />
-      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/9c19208996be6338dfc89fc51523054b/transformed/jetified-firebase-firestore-24.1.2/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/9c19208996be6338dfc89fc51523054b/transformed/jetified-firebase-firestore-24.1.2/res" />
-      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/9c19208996be6338dfc89fc51523054b/transformed/jetified-firebase-firestore-24.1.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/def80f6c26615b576385b4df7a207e0d/transformed/jetified-firebase-firestore-24.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/9f1dd48f871daf5c7b7e2fa727a399c1/transformed/jetified-firebase-firestore-24.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/9c19208996be6338dfc89fc51523054b/transformed/jetified-firebase-firestore-24.1.2/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/9c19208996be6338dfc89fc51523054b/transformed/jetified-firebase-firestore-24.1.2/res" />
+      <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/9c19208996be6338dfc89fc51523054b/transformed/jetified-firebase-firestore-24.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9c19208996be6338dfc89fc51523054b/transformed/jetified-firebase-firestore-24.1.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9c19208996be6338dfc89fc51523054b/transformed/jetified-firebase-firestore-24.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9c19208996be6338dfc89fc51523054b/transformed/jetified-firebase-firestore-24.1.2/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/modules-2/files-2.1/com.google.firebase/firebase-firestore/24.1.2/9b105236ab98f6a8d3f1413c0cf65b8a2cf4521d/firebase-firestore-24.1.2-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/modules-2/files-2.1/com.google.firebase/firebase-firestore/24.1.2/9b105236ab98f6a8d3f1413c0cf65b8a2cf4521d/firebase-firestore-24.1.2-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-firestore/24.1.2/9b105236ab98f6a8d3f1413c0cf65b8a2cf4521d/firebase-firestore-24.1.2-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/modules-2/files-2.1/com.google.firebase/firebase-firestore/24.1.2/7aea04b4c87ceb14f9b8efd891e9a0b617c002ca/firebase-firestore-24.1.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/modules-2/files-2.1/com.google.firebase/firebase-firestore/24.1.2/7aea04b4c87ceb14f9b8efd891e9a0b617c002ca/firebase-firestore-24.1.2-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-firestore/24.1.2/7aea04b4c87ceb14f9b8efd891e9a0b617c002ca/firebase-firestore-24.1.2-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
