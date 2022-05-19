@@ -3,6 +3,7 @@ package com.example.e_scheduler
 import android.os.Bundle
 import android.view.Menu
 import android.view.View
+import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.google.firebase.auth.FirebaseAuth
@@ -54,6 +55,10 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         }
 
         CoroutineScope(Dispatchers.Main).launch {
+
+            progress_bar.isVisible = true
+            parent_layout.isVisible = false
+
             val notice = notices.get().await().toObjects(Notice::class.java)
             var str = ""
             if (notice.size > 0) {
@@ -99,6 +104,9 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
                 }
             }
             tv_schedules.text = str
+
+            progress_bar.isVisible = false
+            parent_layout.isVisible = true
         }
 
     }

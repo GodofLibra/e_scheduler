@@ -3,6 +3,7 @@
     <ANNOTATIONS>
       <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/4bb68b0aac9ea9b65e4438f57f8a9174/transformed/core-1.7.0/annotations.zip!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4bb68b0aac9ea9b65e4438f57f8a9174/transformed/core-1.7.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/4bb68b0aac9ea9b65e4438f57f8a9174/transformed/core-1.7.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/4bb68b0aac9ea9b65e4438f57f8a9174/transformed/core-1.7.0/res" />
@@ -11,11 +12,14 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4bb68b0aac9ea9b65e4438f57f8a9174/transformed/core-1.7.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4bb68b0aac9ea9b65e4438f57f8a9174/transformed/core-1.7.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4bb68b0aac9ea9b65e4438f57f8a9174/transformed/core-1.7.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/4bb68b0aac9ea9b65e4438f57f8a9174/transformed/core-1.7.0/res" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/4bb68b0aac9ea9b65e4438f57f8a9174/transformed/core-1.7.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/4bb68b0aac9ea9b65e4438f57f8a9174/transformed/core-1.7.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/modules-2/files-2.1/androidx.core/core/1.7.0/f1c3685231d49092ae301932de1481d9b7a9e025/core-1.7.0-sources.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.core/core/1.7.0/f1c3685231d49092ae301932de1481d9b7a9e025/core-1.7.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/modules-2/files-2.1/androidx.core/core/1.7.0/f1c3685231d49092ae301932de1481d9b7a9e025/core-1.7.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
