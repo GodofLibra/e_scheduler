@@ -3,7 +3,7 @@
     <ANNOTATIONS>
       <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/35e9e30d5694a84691de90023ac2f83e/transformed/browser-1.0.0/annotations.zip!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/35e9e30d5694a84691de90023ac2f83e/transformed/browser-1.0.0/annotations.zip!/" />
-      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/35e9e30d5694a84691de90023ac2f83e/transformed/browser-1.0.0/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/35e9e30d5694a84691de90023ac2f83e/transformed/browser-1.0.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/35e9e30d5694a84691de90023ac2f83e/transformed/browser-1.0.0/res" />
@@ -12,14 +12,15 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/35e9e30d5694a84691de90023ac2f83e/transformed/browser-1.0.0/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/35e9e30d5694a84691de90023ac2f83e/transformed/browser-1.0.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/35e9e30d5694a84691de90023ac2f83e/transformed/browser-1.0.0/res" />
-      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/35e9e30d5694a84691de90023ac2f83e/transformed/browser-1.0.0/res" />
-      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/35e9e30d5694a84691de90023ac2f83e/transformed/browser-1.0.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/35e9e30d5694a84691de90023ac2f83e/transformed/browser-1.0.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/35e9e30d5694a84691de90023ac2f83e/transformed/browser-1.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/35e9e30d5694a84691de90023ac2f83e/transformed/browser-1.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/35e9e30d5694a84691de90023ac2f83e/transformed/browser-1.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/modules-2/files-2.1/androidx.browser/browser/1.0.0/804dc4c93b5f45da8f72c10a5080dbb21715d813/browser-1.0.0-sources.jar!/" />
-      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/modules-2/files-2.1/androidx.browser/browser/1.0.0/804dc4c93b5f45da8f72c10a5080dbb21715d813/browser-1.0.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/modules-2/files-2.1/androidx.browser/browser/1.0.0/804dc4c93b5f45da8f72c10a5080dbb21715d813/browser-1.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.browser/browser/1.0.0/804dc4c93b5f45da8f72c10a5080dbb21715d813/browser-1.0.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
