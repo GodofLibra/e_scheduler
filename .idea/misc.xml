@@ -82,6 +82,25 @@
         <entry key="..\:/Users/oreoa/AndroidStudioProjects/Practical_9_19012021092/app/src/main/res/layout/add_edit_note_dialog.xml" value="0.2" />
         <entry key="..\:/Users/oreoa/AndroidStudioProjects/Practical_9_19012021092/app/src/main/res/layout/row_layout.xml" value="0.23052536231884058" />
         <entry key="..\:/Users/oreoa/AndroidStudioProjects/Practical_9_19012021092/app/src/main/res/menu/menu.xml" value="0.2" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/drawable/announcement_bg.xml" value="0.186" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/drawable/dashboard_bg.xml" value="0.186" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/drawable/left_side_background.xml" value="0.186" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/drawable/notice_bg.xml" value="0.186" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/drawable/right_side_background.xml" value="0.186" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/drawable/row_ann_bg.xml" value="0.186" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/drawable/row_notice.xml" value="0.186" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/drawable/row_notice_bg.xml" value="0.186" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/activity_note_info.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/app_bar_dashboard_side_nav_avtivity.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/fragment_announcement.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/fragment_dashboard.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/fragment_home.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/fragment_login.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/fragment_notice.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/fragment_sign_up.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/row_layout_ann.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/row_layout_notice.xml" value="0.27447916666666666" />
       </map>
     </option>
   </component>
