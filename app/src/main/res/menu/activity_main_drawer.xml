@@ -9,15 +9,15 @@
         android:title="Admin">
         <menu>
             <item
-                android:id="@+id/manage_users"
+                android:id="@+id/manageUsersFragment"
                 android:title="Manage Users" />
 
             <item
-                android:id="@+id/manage_ann"
+                android:id="@+id/manageAnnouncementFragment"
                 android:title="Manage Announcements" />
 
             <item
-                android:id="@+id/manage_not"
+                android:id="@+id/manageNoticeFragment"
                 android:title="Manage Notices" />
         </menu>
 

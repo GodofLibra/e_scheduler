@@ -1,6 +1,6 @@
-package com.example.e_scheduler
+package com.example.e_scheduler.entity
 
-data class Announcement(
+data class Notice(
     val uid: String = "",
     val title: String = "",
     val subject: String = "",

@@ -1,4 +1,4 @@
-package com.example.e_scheduler
+package com.example.e_scheduler.fragments
 
 import android.app.Dialog
 import android.os.Bundle
@@ -6,13 +6,14 @@ import android.view.View
 import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import com.example.e_scheduler.R
+import com.example.e_scheduler.entity.Schedule
+import com.example.e_scheduler.adapter.ScheduleAdapter
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.ktx.Firebase
-import kotlinx.android.synthetic.main.fragment_announcement.*
-import kotlinx.android.synthetic.main.fragment_schedule.*
 import kotlinx.android.synthetic.main.fragment_schedule.fab_add_note
 import kotlinx.android.synthetic.main.fragment_schedule.lv_notes
 import kotlinx.coroutines.CoroutineScope
@@ -81,7 +82,8 @@ class ScheduleFragment : Fragment(R.layout.fragment_schedule) {
 
     private fun getUpdatedList() {
         CoroutineScope(Dispatchers.Main).launch {
-            val abc = schedules.whereEqualTo("owner",Firebase.auth.currentUser?.uid).get().await().toObjects(Schedule::class.java) as ArrayList
+            val abc = schedules.whereEqualTo("owner",Firebase.auth.currentUser?.uid).get().await().toObjects(
+                Schedule::class.java) as ArrayList
             adapter = ScheduleAdapter(requireContext(), abc)
             lv_notes.adapter = adapter
         }

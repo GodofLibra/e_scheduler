@@ -1,4 +1,4 @@
-package com.example.e_scheduler
+package com.example.e_scheduler.fragments
 
 import android.os.Bundle
 import android.view.Menu
@@ -6,6 +6,11 @@ import android.view.View
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.example.e_scheduler.*
+import com.example.e_scheduler.entity.Announcement
+import com.example.e_scheduler.entity.Notice
+import com.example.e_scheduler.entity.Schedule
+import com.example.e_scheduler.entity.User
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.FirebaseFirestore
@@ -47,10 +52,10 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
                 .toObject(User::class.java)!!
 
             val navMenu: Menu = requireActivity().nav_view.menu
-            navMenu.findItem(R.id.admin).isVisible = user.role != "Student"
-            navMenu.findItem(R.id.manage_users).isVisible = user.role != "Student"
-            navMenu.findItem(R.id.manage_ann).isVisible = user.role != "Student"
-            navMenu.findItem(R.id.manage_not).isVisible = user.role != "Student"
+            navMenu.findItem(R.id.admin).isVisible = user.role == "Admin"
+            navMenu.findItem(R.id.manageUsersFragment).isVisible = user.role == "Admin"
+            navMenu.findItem(R.id.manageAnnouncementFragment).isVisible = user.role == "Admin"
+            navMenu.findItem(R.id.manageNoticeFragment).isVisible = user.role == "Admin"
 
         }
 
@@ -90,7 +95,11 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
             tv_announcements.text = str
 
 
-            val schedule = schedules.whereEqualTo("owner", Firebase.auth.currentUser?.uid).get().await().toObjects(Schedule::class.java)
+            val schedule =
+                schedules.whereEqualTo("owner", Firebase.auth.currentUser?.uid).get().await()
+                    .toObjects(
+                        Schedule::class.java
+                    )
             str = ""
             if (schedule.size > 0) {
                 if (schedule.size > 3) {

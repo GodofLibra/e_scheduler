@@ -1,13 +1,14 @@
-package com.example.e_scheduler
+package com.example.e_scheduler.adapter
 
 import android.annotation.SuppressLint
 import android.content.Context
-import android.os.Build
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
-import androidx.annotation.RequiresApi
+import com.example.e_scheduler.R
+import com.example.e_scheduler.Receipes
+import com.example.e_scheduler.entity.Schedule
 import com.google.firebase.firestore.FirebaseFirestore
 import java.util.*
 

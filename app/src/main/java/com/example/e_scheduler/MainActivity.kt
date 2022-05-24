@@ -61,9 +61,11 @@ class MainActivity : AppCompatActivity() {
             if (destination.id in listOf(R.id.loginActivity, R.id.signUpActivity)) {
                 bottom_nav_bar.visibility = View.GONE
                 toolbar.visibility = View.GONE
+                drawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED)
             } else {
                 bottom_nav_bar.visibility = View.VISIBLE
                 toolbar.visibility = View.VISIBLE
+                drawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_UNLOCKED)
             }
         }
 

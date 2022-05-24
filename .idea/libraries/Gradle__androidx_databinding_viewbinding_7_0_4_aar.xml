@@ -11,12 +11,15 @@
       <root url="file://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/e06552b999d2fbd6a7b3100f594f0175/transformed/jetified-viewbinding-7.0.4/res" />
       <root url="file://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/e06552b999d2fbd6a7b3100f594f0175/transformed/jetified-viewbinding-7.0.4/AndroidManifest.xml" />
       <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/e06552b999d2fbd6a7b3100f594f0175/transformed/jetified-viewbinding-7.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/e06552b999d2fbd6a7b3100f594f0175/transformed/jetified-viewbinding-7.0.4/res" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/e06552b999d2fbd6a7b3100f594f0175/transformed/jetified-viewbinding-7.0.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/e06552b999d2fbd6a7b3100f594f0175/transformed/jetified-viewbinding-7.0.4/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/modules-2/files-2.1/androidx.databinding/viewbinding/7.0.4/afb2fba7b45ae3613ed80a9d306bfb0adc5afed9/viewbinding-7.0.4-sources.jar!/" />
       <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/modules-2/files-2.1/androidx.databinding/viewbinding/7.0.4/afb2fba7b45ae3613ed80a9d306bfb0adc5afed9/viewbinding-7.0.4-sources.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.databinding/viewbinding/7.0.4/afb2fba7b45ae3613ed80a9d306bfb0adc5afed9/viewbinding-7.0.4-sources.jar!/" />
+      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/modules-2/files-2.1/androidx.databinding/viewbinding/7.0.4/afb2fba7b45ae3613ed80a9d306bfb0adc5afed9/viewbinding-7.0.4-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

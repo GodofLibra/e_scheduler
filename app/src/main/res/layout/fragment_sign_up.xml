@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/right_side_background"
     android:fillViewport="true"
-    tools:context=".SignUpFragment">
+    tools:context=".fragments.SignUpFragment">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout

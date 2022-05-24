@@ -6,6 +6,7 @@ import android.content.Context
 import android.content.Intent
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
+import com.example.e_scheduler.fragments.channelId
 
 class NotificationReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context?, intent: Intent?) {

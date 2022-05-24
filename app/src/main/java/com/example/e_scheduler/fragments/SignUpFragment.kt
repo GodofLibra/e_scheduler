@@ -1,4 +1,4 @@
-package com.example.e_scheduler
+package com.example.e_scheduler.fragments
 
 import android.graphics.Color
 import android.os.Build
@@ -9,6 +9,8 @@ import android.widget.Toast
 import androidx.activity.OnBackPressedCallback
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.example.e_scheduler.R
+import com.example.e_scheduler.entity.User
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.userProfileChangeRequest
 import com.google.firebase.firestore.FirebaseFirestore

@@ -1,69 +1,47 @@
-package com.example.e_scheduler
+package com.example.e_scheduler.fragments
 
+import android.R.attr.password
+import android.content.Intent
 import android.graphics.Color
-import android.graphics.drawable.AnimationDrawable
 import android.os.Build
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.view.WindowManager
-import androidx.activity.OnBackPressedCallback
+import android.widget.Toast
 import androidx.fragment.app.Fragment
-import androidx.navigation.fragment.findNavController
-import com.google.firebase.auth.ktx.auth
+import com.example.e_scheduler.R
+import com.example.e_scheduler.adapter.ManageUserAdapter
+import com.example.e_scheduler.entity.User
+import com.google.firebase.auth.EmailAuthProvider
+import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
-import com.google.firebase.ktx.Firebase
-import kotlinx.android.synthetic.main.fragment_dashboard.*
+import kotlinx.android.synthetic.main.fragment_notice.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.tasks.await
 
-class DashboardFragment : Fragment(R.layout.fragment_dashboard) {
-    lateinit var heart: AnimationDrawable
+
+class ManageUsersFragment : Fragment(R.layout.fragment_manage_users) {
+
     private val users = FirebaseFirestore.getInstance().collection("users")
-    private val receipes = FirebaseFirestore.getInstance().collection("receipes")
 
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        val callback: OnBackPressedCallback =
-            object : OnBackPressedCallback(true) {
-                override fun handleOnBackPressed() {
-                    requireActivity().finishAffinity()
-                }
-            }
-        requireActivity().onBackPressedDispatcher.addCallback(this, callback)
-    }
+    private lateinit var adapter: ManageUserAdapter
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
         setStatusBarTransparent()
+        getUpdatedList()
 
+    }
 
+    private fun getUpdatedList() {
         CoroutineScope(Dispatchers.Main).launch {
-            val user = users.document(Firebase.auth.currentUser!!.uid).get().await()
-                .toObject(User::class.java)!!
-
-            Log.d("TAG_DASHBOARD", "onCreate: $user")
-            tv_user_name.text = user.userName
-            tv_user_email.text = Firebase.auth.currentUser!!.email
-            tv_name.text = user.userName
-            tv_user_enr_number.text = user.enrNo
-//            tvUserBio.text = user.bio
-            tv_email_id.text = Firebase.auth.currentUser!!.email
-
-
+            val abc = users.get().await().toObjects(User::class.java) as ArrayList
+            adapter = ManageUserAdapter(requireContext(), abc)
+            lv_notes.adapter = adapter
         }
-
-
-        btn_logout.setOnClickListener {
-
-            Firebase.auth.signOut()
-
-            findNavController().navigate(R.id.loginActivity)
-        }
-
     }
 
     private fun setStatusBarTransparent() {
@@ -92,4 +70,3 @@ class DashboardFragment : Fragment(R.layout.fragment_dashboard) {
         requireActivity().window.attributes = winParameters
     }
 }
-

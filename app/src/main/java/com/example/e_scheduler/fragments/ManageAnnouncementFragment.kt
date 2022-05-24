@@ -1,4 +1,4 @@
-package com.example.e_scheduler
+package com.example.e_scheduler.fragments
 
 import android.app.Dialog
 import android.graphics.Color
@@ -10,92 +10,46 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
+import com.example.e_scheduler.*
+import com.example.e_scheduler.adapter.AnnouncementAdapter
+import com.example.e_scheduler.adapter.ManageAnnouncementAdapter
+import com.example.e_scheduler.adapter.ManageUserAdapter
+import com.example.e_scheduler.entity.Announcement
+import com.example.e_scheduler.entity.Notice
+import com.example.e_scheduler.entity.User
 import com.google.android.material.textfield.TextInputEditText
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.ktx.Firebase
-import kotlinx.android.synthetic.main.fragment_announcement.*
 import kotlinx.android.synthetic.main.fragment_announcement.fab_add_note
 import kotlinx.android.synthetic.main.fragment_announcement.lv_notes
-import kotlinx.android.synthetic.main.fragment_notice.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.tasks.await
 import java.util.*
 
-class AnnouncementFragment : Fragment(R.layout.fragment_announcement) {
+class ManageAnnouncementFragment : Fragment(R.layout.fragment_manage_announcement) {
 
     private val users = FirebaseFirestore.getInstance().collection("users")
 
     private val announcements = FirebaseFirestore.getInstance().collection("announcement")
 
-    private lateinit var adapter: AnnouncementAdapter
+    private lateinit var adapter: ManageAnnouncementAdapter
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
         setStatusBarTransparent()
-
-
         getUpdatedList()
 
-        CoroutineScope(Dispatchers.Main).launch {
-            val user = users.document(FirebaseAuth.getInstance().currentUser!!.uid).get().await()
-                .toObject(User::class.java)!!
-            fab_add_note.isVisible = user.role.trim() != "Student"
-        }
-
-        fab_add_note.setOnClickListener {
-            val dialog = Dialog(requireActivity())
-            dialog.setContentView(R.layout.add_edit_note_dialog)
-            val noteTitle = dialog.findViewById<TextInputEditText>(R.id.et_note_title)
-            val noteSubTitle = dialog.findViewById<TextInputEditText>(R.id.et_note_sub_title)
-            val noteDescription = dialog.findViewById<TextInputEditText>(R.id.et_note_description)
-            val btnOk = dialog.findViewById<TextView>(R.id.btn_ok)
-            val btnCancel = dialog.findViewById<TextView>(R.id.btn_cancel)
-
-            btnOk.setOnClickListener {
-                if (noteTitle.text.toString().isEmpty() or noteSubTitle.text.toString()
-                        .isEmpty() or noteDescription.text.toString()
-                        .isEmpty()
-                ) {
-                    Toast.makeText(
-                        requireActivity(),
-                        "Please enter all fields\nAll fields are required",
-                        Toast.LENGTH_SHORT
-                    ).show()
-                } else {
-                    val id = UUID.randomUUID().toString()
-                    val announcement = Announcement(
-                        uid = id,
-                        title = noteTitle.text?.trim().toString(),
-                        subject = noteSubTitle.text?.trim().toString(),
-                        description = noteDescription.text?.trim().toString(),
-                        owner = Firebase.auth.currentUser!!.uid,
-                    )
-
-                    CoroutineScope(Dispatchers.Main).launch {
-                        announcements.document(id).set(announcement).await()
-                        getUpdatedList()
-                    }
-                    dialog.dismiss()
-                }
-            }
-
-            btnCancel.setOnClickListener {
-                dialog.dismiss()
-            }
-            dialog.show()
-
-        }
     }
 
     private fun getUpdatedList() {
         CoroutineScope(Dispatchers.Main).launch {
-            val abc = announcements.get().await().toObjects(Notice::class.java) as ArrayList
-            adapter = AnnouncementAdapter(requireContext(), abc)
+            val abc = announcements.get().await().toObjects(Announcement::class.java) as ArrayList
+            adapter = ManageAnnouncementAdapter(requireContext(), abc)
             lv_notes.adapter = adapter
         }
     }

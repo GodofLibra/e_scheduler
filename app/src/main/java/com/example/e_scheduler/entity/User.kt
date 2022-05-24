@@ -1,4 +1,4 @@
-package com.example.e_scheduler
+package com.example.e_scheduler.entity
 
 data class User(
     val uid: String = "",

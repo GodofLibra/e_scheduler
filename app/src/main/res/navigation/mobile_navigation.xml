@@ -6,27 +6,27 @@
     app:startDestination="@id/signUpActivity">
     <fragment
         android:id="@+id/signUpActivity"
-        android:name="com.example.e_scheduler.SignUpFragment"
+        android:name="com.example.e_scheduler.fragments.SignUpFragment"
         android:label="Sign Up"
         tools:layout="@layout/fragment_sign_up"/>
     <fragment
         android:id="@+id/loginActivity"
-        android:name="com.example.e_scheduler.LoginFragment"
+        android:name="com.example.e_scheduler.fragments.LoginFragment"
         android:label="Login"
         tools:layout="@layout/fragment_login"/>
     <fragment
         android:id="@+id/announcementFragment"
-        android:name="com.example.e_scheduler.AnnouncementFragment"
+        android:name="com.example.e_scheduler.fragments.AnnouncementFragment"
         android:label="Announcemnet"
         tools:layout="@layout/fragment_announcement" />
     <fragment
         android:id="@+id/scheduleFragment"
-        android:name="com.example.e_scheduler.ScheduleFragment"
+        android:name="com.example.e_scheduler.fragments.ScheduleFragment"
         android:label="Schedules"
         tools:layout="@layout/fragment_schedule" />
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.e_scheduler.HomeFragment"
+        android:name="com.example.e_scheduler.fragments.HomeFragment"
         android:label="Home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -35,12 +35,27 @@
     </fragment>
     <fragment
         android:id="@+id/noticeFragment"
-        android:name="com.example.e_scheduler.NoticeFragment"
+        android:name="com.example.e_scheduler.fragments.NoticeFragment"
         android:label="Notice"
         tools:layout="@layout/fragment_notice" />
     <fragment
         android:id="@+id/dashboardFragment"
-        android:name="com.example.e_scheduler.DashboardFragment"
+        android:name="com.example.e_scheduler.fragments.DashboardFragment"
         android:label="Dashboard"
         tools:layout="@layout/fragment_dashboard" />
+    <fragment
+        android:id="@+id/manageUsersFragment"
+        android:name="com.example.e_scheduler.fragments.ManageUsersFragment"
+        android:label="Manage Users"
+        tools:layout="@layout/fragment_manage_users" />
+    <fragment
+        android:id="@+id/manageAnnouncementFragment"
+        android:name="com.example.e_scheduler.fragments.ManageAnnouncementFragment"
+        android:label="Manage Announcements"
+        tools:layout="@layout/fragment_manage_announcement" />
+    <fragment
+        android:id="@+id/manageNoticeFragment"
+        android:name="com.example.e_scheduler.fragments.ManageNoticeFragment"
+        android:label="Manage Notices"
+        tools:layout="@layout/fragment_manage_notice" />
 </navigation>
