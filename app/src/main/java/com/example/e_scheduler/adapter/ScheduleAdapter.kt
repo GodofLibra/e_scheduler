@@ -10,6 +10,10 @@ import com.example.e_scheduler.R
 import com.example.e_scheduler.Receipes
 import com.example.e_scheduler.entity.Schedule
 import com.google.firebase.firestore.FirebaseFirestore
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.tasks.await
 import java.util.*
 
 
@@ -33,21 +37,19 @@ class ScheduleAdapter(var context: Context, var noteList: ArrayList<Schedule>) :
         val view = LayoutInflater.from(context).inflate(R.layout.row_layout_schedule, parent, false)
         val noteTitle = view.findViewById<TextView>(R.id.note_title)
         val noteDescription = view.findViewById<TextView>(R.id.note_description)
+        val btnDelete = view.findViewById<ImageButton>(R.id.btn_delete_schedule)
         noteTitle.text = noteList[position].title
         noteDescription.text = noteList[position].description
+
+        btnDelete.setOnClickListener {
+            CoroutineScope(Dispatchers.Main).launch {
+                schedules.document(noteList[position].uid).delete().await()
+                noteList.remove(noteList[position])
+                notifyDataSetChanged()
+            }
+        }
 
         return view
     }
 
-    private var onEditClickListener: ((Receipes) -> Unit)? = null
-
-    fun setOnEditClickListener(listener: (Receipes) -> Unit) {
-        onEditClickListener = listener
-    }
-
-    private var onDeleteClickListener: ((Receipes) -> Unit)? = null
-
-    fun setOnDeleteClickListener(listener: (Receipes) -> Unit) {
-        onDeleteClickListener = listener
-    }
 }
