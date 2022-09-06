@@ -23,13 +23,45 @@
         <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/activity_notice.xml" value="0.264" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/activity_receipes.xml" value="0.264" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
-        <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/add_edit_note_dialog.xml" value="0.13269927536231885" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/add_edit_note_dialog.xml" value="0.264" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/content_dashboard_side_nav_avtivity.xml" value="0.2" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/fragment_announcement.xml" value="0.1526268115942029" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/fragment_dashboard.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/fragment_home.xml" value="0.14990942028985507" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/fragment_login.xml" value="0.264" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/fragment_schedule.xml" value="0.4" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/nav_header_dashboard_side_nav_avtivity.xml" value="0.140625" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/row_layout.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/row_layout_ann.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/row_layout_notice.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/row_layout_schedule.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/menu/side_nav_menu.xml" value="0.4" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/e_scheduler/app/src/main/res/mipmap-anydpi-v26/ic_launcher_app_icon.xml" value="0.1505" />
+        <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/activity_announcement.xml" value="0.1796875" />
+        <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/activity_dashboard.xml" value="0.1796875" />
+        <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/activity_notice.xml" value="0.1796875" />
+        <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/add_edit_note_dialog.xml" value="0.1796875" />
+        <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/app_bar_dashboard_side_nav_avtivity.xml" value="0.1796875" />
+        <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/content_dashboard_side_nav_avtivity.xml" value="0.1796875" />
+        <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/content_main_activity.xml" value="0.1796875" />
+        <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/fragment_announcement.xml" value="0.1796875" />
+        <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/fragment_dashboard.xml" value="0.1796875" />
+        <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/fragment_home.xml" value="0.1796875" />
+        <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/fragment_login.xml" value="0.1796875" />
+        <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/fragment_manage_announcement.xml" value="0.1796875" />
+        <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/fragment_manage_notice.xml" value="0.1796875" />
+        <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/fragment_manage_users.xml" value="0.1796875" />
+        <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/fragment_schedule.xml" value="0.1796875" />
+        <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/row_layout_manage_ann.xml" value="0.1796875" />
+        <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/row_layout_manage_notice.xml" value="0.1796875" />
+        <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/row_layout_manage_users.xml" value="0.1796875" />
+        <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/row_layout_schedule.xml" value="0.1796875" />
+        <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/menu/activity_main_drawer.xml" value="0.1796875" />
+        <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/menu/dashboard_side_nav_avtivity.xml" value="0.1796875" />
+        <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/menu/menu.xml" value="0.1796875" />
+        <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/menu/side_nav_menu.xml" value="0.1796875" />
         <entry key="..\:/Users/oreoa/AndroidStudioProjects/19012021092_Assignment2_MAD2/app/src/main/res/drawable/dashboard_bg.xml" value="0.21796875" />
         <entry key="..\:/Users/oreoa/AndroidStudioProjects/19012021092_Assignment2_MAD2/app/src/main/res/drawable/ic_add.xml" value="0.21796875" />
         <entry key="..\:/Users/oreoa/AndroidStudioProjects/19012021092_Assignment2_MAD2/app/src/main/res/drawable/right_side_background.xml" value="0.21796875" />
@@ -58,6 +90,25 @@
         <entry key="..\:/Users/oreoa/AndroidStudioProjects/Practical_9_19012021092/app/src/main/res/layout/add_edit_note_dialog.xml" value="0.2" />
         <entry key="..\:/Users/oreoa/AndroidStudioProjects/Practical_9_19012021092/app/src/main/res/layout/row_layout.xml" value="0.23052536231884058" />
         <entry key="..\:/Users/oreoa/AndroidStudioProjects/Practical_9_19012021092/app/src/main/res/menu/menu.xml" value="0.2" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/drawable/announcement_bg.xml" value="0.186" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/drawable/dashboard_bg.xml" value="0.186" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/drawable/left_side_background.xml" value="0.186" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/drawable/notice_bg.xml" value="0.186" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/drawable/right_side_background.xml" value="0.186" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/drawable/row_ann_bg.xml" value="0.186" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/drawable/row_notice.xml" value="0.186" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/drawable/row_notice_bg.xml" value="0.186" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/activity_note_info.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/app_bar_dashboard_side_nav_avtivity.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/fragment_announcement.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/fragment_dashboard.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/fragment_home.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/fragment_login.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/fragment_notice.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/fragment_sign_up.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/row_layout_ann.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/oreoa/AndroidStudioProjects/e_scheduler/app/src/main/res/layout/row_layout_notice.xml" value="0.27447916666666666" />
       </map>
     </option>
   </component>

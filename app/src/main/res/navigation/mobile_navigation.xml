@@ -3,28 +3,59 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@id/dashboardActivity">
-    <fragment
-        android:id="@+id/dashboardActivity"
-        android:name="com.example.e_scheduler.DashboardActivity"
-        android:label="activity_dashboard"
-        tools:layout="@layout/activity_dashboard" />
+    app:startDestination="@id/signUpActivity">
     <fragment
         android:id="@+id/signUpActivity"
-        android:name="com.example.e_scheduler.SignUpActivity"
-        android:label="activity_sign_up"
-        tools:layout="@layout/activity_sign_up" >
-        <action
-            android:id="@+id/action_signUpActivity_to_loginActivity"
-            app:destination="@id/loginActivity" />
-    </fragment>
+        android:name="com.example.e_scheduler.fragments.SignUpFragment"
+        android:label="Sign Up"
+        tools:layout="@layout/fragment_sign_up"/>
     <fragment
         android:id="@+id/loginActivity"
-        android:name="com.example.e_scheduler.LoginActivity"
-        android:label="activity_login"
-        tools:layout="@layout/activity_login" >
+        android:name="com.example.e_scheduler.fragments.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login"/>
+    <fragment
+        android:id="@+id/announcementFragment"
+        android:name="com.example.e_scheduler.fragments.AnnouncementFragment"
+        android:label="Announcemnet"
+        tools:layout="@layout/fragment_announcement" />
+    <fragment
+        android:id="@+id/scheduleFragment"
+        android:name="com.example.e_scheduler.fragments.ScheduleFragment"
+        android:label="Schedules"
+        tools:layout="@layout/fragment_schedule" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.e_scheduler.fragments.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" >
         <action
-            android:id="@+id/action_loginActivity_to_dashboardActivity"
-            app:destination="@id/dashboardActivity" />
+            android:id="@+id/action_homeFragment_to_noticeFragment"
+            app:destination="@id/noticeFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/noticeFragment"
+        android:name="com.example.e_scheduler.fragments.NoticeFragment"
+        android:label="Notice"
+        tools:layout="@layout/fragment_notice" />
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.e_scheduler.fragments.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+    <fragment
+        android:id="@+id/manageUsersFragment"
+        android:name="com.example.e_scheduler.fragments.ManageUsersFragment"
+        android:label="Manage Users"
+        tools:layout="@layout/fragment_manage_users" />
+    <fragment
+        android:id="@+id/manageAnnouncementFragment"
+        android:name="com.example.e_scheduler.fragments.ManageAnnouncementFragment"
+        android:label="Manage Announcements"
+        tools:layout="@layout/fragment_manage_announcement" />
+    <fragment
+        android:id="@+id/manageNoticeFragment"
+        android:name="com.example.e_scheduler.fragments.ManageNoticeFragment"
+        android:label="Manage Notices"
+        tools:layout="@layout/fragment_manage_notice" />
 </navigation>

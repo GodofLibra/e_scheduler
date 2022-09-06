@@ -2,13 +2,27 @@
   <library name="Gradle: androidx.loader:loader:1.0.0@aar">
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d9c13196a408683ec6252ae16accf547/transformed/loader-1.0.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2e713a222433b0f8d82077ba3c6269d7/transformed/loader-1.0.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2e713a222433b0f8d82077ba3c6269d7/transformed/loader-1.0.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2e713a222433b0f8d82077ba3c6269d7/transformed/loader-1.0.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/2e713a222433b0f8d82077ba3c6269d7/transformed/loader-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/b8b33459c3d98f4a5f4d84c2ede299c6/transformed/loader-1.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/a4eaf837172bdd188fb1b248897bd354/transformed/loader-1.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/a4eaf837172bdd188fb1b248897bd354/transformed/loader-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/a4eaf837172bdd188fb1b248897bd354/transformed/loader-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a4eaf837172bdd188fb1b248897bd354/transformed/loader-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a4eaf837172bdd188fb1b248897bd354/transformed/loader-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a4eaf837172bdd188fb1b248897bd354/transformed/loader-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/a4eaf837172bdd188fb1b248897bd354/transformed/loader-1.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/a4eaf837172bdd188fb1b248897bd354/transformed/loader-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/a4eaf837172bdd188fb1b248897bd354/transformed/loader-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/a4eaf837172bdd188fb1b248897bd354/transformed/loader-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/a4eaf837172bdd188fb1b248897bd354/transformed/loader-1.0.0/res" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/a4eaf837172bdd188fb1b248897bd354/transformed/loader-1.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.loader/loader/1.0.0/b9ef587f3e46c7fe5b00264989764e43ff45cada/loader-1.0.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/modules-2/files-2.1/androidx.loader/loader/1.0.0/b9ef587f3e46c7fe5b00264989764e43ff45cada/loader-1.0.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/modules-2/files-2.1/androidx.loader/loader/1.0.0/b9ef587f3e46c7fe5b00264989764e43ff45cada/loader-1.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/modules-2/files-2.1/androidx.loader/loader/1.0.0/b9ef587f3e46c7fe5b00264989764e43ff45cada/loader-1.0.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

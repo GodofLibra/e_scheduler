@@ -33,10 +33,4 @@ class NoteInfoActivity : AppCompatActivity() {
 //            "Reminder at " + timeFormat.format(Receipes.receipesArray[index].modifiedTime.timeInMillis)
 //        tvNoteReminderTime.text = time
     }
-    override fun onBackPressed() {
-//        Intent(this, ReceipesActivity::class.java).apply {
-//            startActivity(this)
-//        }
-        super.onBackPressed()
-    }
 }
