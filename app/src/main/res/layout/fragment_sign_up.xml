@@ -139,27 +139,6 @@
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
-                    android:id="@+id/city"
-                    style="@style/Widget.Design.TextInputLayout"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="City"
-                    android:paddingStart="20dp"
-                    android:paddingEnd="20dp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/number">
-
-                    <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/et_register_city"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:drawableRight="@drawable/ic_baseline_person_24"
-                        android:inputType="text"
-                        android:maxLines="1" />
-                </com.google.android.material.textfield.TextInputLayout>
-
-                <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/email"
                     style="@style/Widget.Design.TextInputLayout"
                     android:layout_width="match_parent"
@@ -169,7 +148,7 @@
                     android:paddingEnd="20dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/city">
+                    app:layout_constraintTop_toBottomOf="@id/number">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/et_register_email"

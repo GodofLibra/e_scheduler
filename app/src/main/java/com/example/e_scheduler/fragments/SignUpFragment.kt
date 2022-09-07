@@ -62,8 +62,6 @@ class SignUpFragment : Fragment(R.layout.fragment_sign_up) {
             val email = et_register_email.text.toString().trim()
             val password = et_register_password.text.toString().trim()
             val cPassword = et_register_cpassword.text.toString().trim()
-            val city = et_register_city.text.toString().trim()
-
             when {
                 name.isEmpty() or enrNum.isEmpty() or email.isEmpty() or
                         password.isEmpty() or cPassword.isEmpty() -> {
@@ -93,7 +91,6 @@ class SignUpFragment : Fragment(R.layout.fragment_sign_up) {
                                     uid = uid,
                                     userName = name,
                                     enrNo = enrNum,
-                                    city = city,
                                     email = email,
                                     role = role
                                 )
