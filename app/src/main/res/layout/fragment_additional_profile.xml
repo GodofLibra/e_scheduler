@@ -7,7 +7,6 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tl_branch"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
@@ -28,7 +27,6 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tl_sem"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
@@ -49,7 +47,6 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tl_class"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
@@ -70,7 +67,6 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tl_lab"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
@@ -124,7 +120,6 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tl_bloodgrp"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
