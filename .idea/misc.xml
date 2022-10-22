@@ -44,13 +44,15 @@
         <entry key="..\:/Users/Asus/StudioProjects/e_scheduler/app/src/main/res/drawable/row_material_bg.xml" value="0.1885" />
         <entry key="..\:/Users/Asus/StudioProjects/e_scheduler/app/src/main/res/layout/activity_main.xml" value="0.1359375" />
         <entry key="..\:/Users/Asus/StudioProjects/e_scheduler/app/src/main/res/layout/add_edit_note_dialog.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Asus/StudioProjects/e_scheduler/app/src/main/res/layout/fragment_additional_profile.xml" value="0.14990942028985507" />
+        <entry key="..\:/Users/Asus/StudioProjects/e_scheduler/app/src/main/res/layout/fragment_additional_profile.xml" value="0.264" />
         <entry key="..\:/Users/Asus/StudioProjects/e_scheduler/app/src/main/res/layout/fragment_announcement.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Asus/StudioProjects/e_scheduler/app/src/main/res/layout/fragment_browse_profile.xml" value="0.253125" />
         <entry key="..\:/Users/Asus/StudioProjects/e_scheduler/app/src/main/res/layout/fragment_login.xml" value="0.14990942028985507" />
         <entry key="..\:/Users/Asus/StudioProjects/e_scheduler/app/src/main/res/layout/fragment_material.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asus/StudioProjects/e_scheduler/app/src/main/res/layout/fragment_notice.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asus/StudioProjects/e_scheduler/app/src/main/res/layout/row_layout_ann.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asus/StudioProjects/e_scheduler/app/src/main/res/layout/row_layout_material.xml" value="0.253125" />
+        <entry key="..\:/Users/Asus/StudioProjects/e_scheduler/app/src/main/res/layout/row_layout_notice.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Asus/StudioProjects/e_scheduler/app/src/main/res/layout/row_layout_schedule.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/activity_announcement.xml" value="0.1796875" />
         <entry key="..\:/Users/om/Documents/GitHub/e_scheduler/app/src/main/res/layout/activity_dashboard.xml" value="0.1796875" />

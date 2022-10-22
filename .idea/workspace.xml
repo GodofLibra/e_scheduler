@@ -13,7 +13,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cdbc5ac-36f1-4108-850f-d76814dc1662" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_layout_material.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_layout_material.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_browse_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_additional_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_additional_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_material.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_material.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +63,8 @@
       <list>
         <option value="valueResourceFile" />
         <option value="Kotlin Class" />
-        <option value="layoutResourceFile" />
         <option value="resourceFile" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -89,6 +93,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ResourceManagerPrefKey.ResourceType" value="LAYOUT" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
@@ -297,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666427397943</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="color schema updated">
+      <created>1666427560691</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666427560691</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -325,6 +337,7 @@
     <MESSAGE value="crash issue solved" />
     <MESSAGE value="Manage ann, user, notice" />
     <MESSAGE value="material UIs Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="material UIs Added" />
+    <MESSAGE value="color schema updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="color schema updated" />
   </component>
 </project>
