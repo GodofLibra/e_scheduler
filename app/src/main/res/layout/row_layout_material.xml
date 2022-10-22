@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Resource Title"
-            android:textColor="@color/white"
+            android:textColor="@color/teal_700"
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintTop_toTopOf="parent" />
@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:text="Resource Subject"
-            android:textColor="@color/white"
+            android:textColor="@color/teal_700"
             android:textSize="14sp"
             app:layout_constraintTop_toBottomOf="@id/note_title" />
         <TextView
@@ -39,7 +39,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Resource Descripetion"
-            android:textColor="@color/white"
+            android:textColor="@color/teal_700"
             android:textSize="16sp"
             app:layout_constraintTop_toBottomOf="@id/note_sub_title" />
     </androidx.constraintlayout.widget.ConstraintLayout>
