@@ -4,8 +4,6 @@
       <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/8dcfc8230577a586e592caff80265261/transformed/jetified-activity-ktx-1.1.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/8dcfc8230577a586e592caff80265261/transformed/jetified-activity-ktx-1.1.0/res" />
       <root url="file://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/8dcfc8230577a586e592caff80265261/transformed/jetified-activity-ktx-1.1.0/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8dcfc8230577a586e592caff80265261/transformed/jetified-activity-ktx-1.1.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8dcfc8230577a586e592caff80265261/transformed/jetified-activity-ktx-1.1.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8dcfc8230577a586e592caff80265261/transformed/jetified-activity-ktx-1.1.0/res" />
       <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/8dcfc8230577a586e592caff80265261/transformed/jetified-activity-ktx-1.1.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/8dcfc8230577a586e592caff80265261/transformed/jetified-activity-ktx-1.1.0/AndroidManifest.xml" />
@@ -19,7 +17,6 @@
       <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/modules-2/files-2.1/androidx.activity/activity-ktx/1.1.0/8725ce304372d4bab29388b64d09ec683fd4292e/activity-ktx-1.1.0-sources.jar!/" />
       <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/modules-2/files-2.1/androidx.activity/activity-ktx/1.1.0/8725ce304372d4bab29388b64d09ec683fd4292e/activity-ktx-1.1.0-sources.jar!/" />
       <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/modules-2/files-2.1/androidx.activity/activity-ktx/1.1.0/8725ce304372d4bab29388b64d09ec683fd4292e/activity-ktx-1.1.0-sources.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.activity/activity-ktx/1.1.0/8725ce304372d4bab29388b64d09ec683fd4292e/activity-ktx-1.1.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

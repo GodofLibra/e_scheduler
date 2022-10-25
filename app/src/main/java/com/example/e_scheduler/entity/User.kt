@@ -14,5 +14,7 @@ data class User(
     val mobileNumber: String = "",
     val enrNo: String= "",
     val email: String = "",
-    val role: String = "Student"
+    val role: String = "Student",
+    val validated: Boolean = false,
+    val additionalDetailsAdded: Boolean = false
 )

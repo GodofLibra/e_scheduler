@@ -9,8 +9,6 @@
       <root url="file://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/dcddd0cb691f468edad878785fefef4a/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml" />
       <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/dcddd0cb691f468edad878785fefef4a/transformed/legacy-support-v4-1.0.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/dcddd0cb691f468edad878785fefef4a/transformed/legacy-support-v4-1.0.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/dcddd0cb691f468edad878785fefef4a/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/dcddd0cb691f468edad878785fefef4a/transformed/legacy-support-v4-1.0.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/dcddd0cb691f468edad878785fefef4a/transformed/legacy-support-v4-1.0.0/res" />
       <root url="file://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/dcddd0cb691f468edad878785fefef4a/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml" />
       <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/dcddd0cb691f468edad878785fefef4a/transformed/legacy-support-v4-1.0.0/jars/classes.jar!/" />
@@ -23,7 +21,6 @@
       <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/modules-2/files-2.1/androidx.legacy/legacy-support-v4/1.0.0/5b8f86fea035328fc9e8c660773037a3401ce25f/legacy-support-v4-1.0.0-sources.jar!/" />
       <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/modules-2/files-2.1/androidx.legacy/legacy-support-v4/1.0.0/5b8f86fea035328fc9e8c660773037a3401ce25f/legacy-support-v4-1.0.0-sources.jar!/" />
       <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/modules-2/files-2.1/androidx.legacy/legacy-support-v4/1.0.0/5b8f86fea035328fc9e8c660773037a3401ce25f/legacy-support-v4-1.0.0-sources.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.legacy/legacy-support-v4/1.0.0/5b8f86fea035328fc9e8c660773037a3401ce25f/legacy-support-v4-1.0.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

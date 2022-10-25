@@ -9,6 +9,7 @@ import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.example.e_scheduler.R
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
@@ -87,10 +88,12 @@ class AdditionalProfileFragment : Fragment(R.layout.fragment_additional_profile)
                 "bloodGrp" to autoCompleteTvBloodGrp.text.trim().toString(),
                 "fatherNumber" to et_fathernumber.text?.trim().toString(),
                 "mobileNumber" to et_phone.text?.trim().toString(),
+                "additionalDetailsAdded" to true
             )
         CoroutineScope(Dispatchers.Main).launch {
             try {
                 users.document(uid).update(values).await()
+                findNavController().navigate(R.id.homeFragment)
             } catch (e: Exception) {
                 Toast.makeText(
                     requireActivity(),

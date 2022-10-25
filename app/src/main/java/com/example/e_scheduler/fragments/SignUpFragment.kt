@@ -41,7 +41,14 @@ class SignUpFragment : Fragment(R.layout.fragment_sign_up) {
 
 
         if (auth.currentUser != null) {
-            findNavController().navigate(R.id.homeFragment)
+            CoroutineScope(Dispatchers.Main).launch {
+                if (users.document(auth.currentUser!!.uid).get().await()
+                        .toObject(User::class.java)!!.additionalDetailsAdded
+                )
+                    findNavController().navigate(R.id.homeFragment)
+                else
+                    findNavController().navigate(R.id.additionalProfileFragment)
+            }
         }
 
         setStatusBarTransparent()

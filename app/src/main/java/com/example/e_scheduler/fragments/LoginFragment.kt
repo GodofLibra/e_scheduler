@@ -10,7 +10,9 @@ import androidx.activity.OnBackPressedCallback
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.e_scheduler.R
+import com.example.e_scheduler.entity.User
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.android.synthetic.main.fragment_login.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -20,6 +22,7 @@ import kotlinx.coroutines.tasks.await
 class LoginFragment : Fragment(R.layout.fragment_login) {
 
     private val auth = FirebaseAuth.getInstance()
+    private val users = FirebaseFirestore.getInstance().collection("users")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -57,7 +60,12 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
                 CoroutineScope(Dispatchers.Main).launch {
                     try {
                         auth.signInWithEmailAndPassword(email, password).await()
-                        findNavController().navigate(R.id.homeFragment)
+                        if (users.document(auth.currentUser!!.uid).get().await()
+                                .toObject(User::class.java)!!.additionalDetailsAdded
+                        )
+                            findNavController().navigate(R.id.homeFragment)
+                        else
+                            findNavController().navigate(R.id.additionalProfileFragment)
                     } catch (e: Exception) {
                         Toast.makeText(requireActivity(), "${e.message}", Toast.LENGTH_SHORT).show()
                     }

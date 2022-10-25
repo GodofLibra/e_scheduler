@@ -58,4 +58,8 @@
         android:name="com.example.e_scheduler.fragments.ManageNoticeFragment"
         android:label="Manage Notices"
         tools:layout="@layout/fragment_manage_notice" />
+    <fragment
+        android:id="@+id/additionalProfileFragment"
+        android:name="com.example.e_scheduler.fragments.AdditionalProfileFragment"
+        android:label="AdditionalProfileFragment" />
 </navigation>

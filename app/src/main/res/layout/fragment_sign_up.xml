@@ -11,7 +11,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <TextView
             android:id="@+id/tv_title"
@@ -31,7 +31,7 @@
             android:id="@+id/tv_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
             android:clickable="true"
             android:focusable="true"
@@ -65,7 +65,7 @@
                     android:id="@+id/tv_sign_up"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="40dp"
+                    android:layout_marginStart="40dp"
                     android:layout_marginTop="20dp"
                     android:text="Sign Up"
                     android:textColor="#FFFFFF"
@@ -98,7 +98,6 @@
 
                 <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/name"
-                    style="@style/Widget.Design.TextInputLayout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="User Full Name"
@@ -112,14 +111,13 @@
                         android:id="@+id/et_register_uname"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:drawableRight="@drawable/ic_baseline_person_24"
+                        android:drawableEnd="@drawable/ic_baseline_person_24"
                         android:inputType="textPersonName"
                         android:maxLines="1" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/number"
-                    style="@style/Widget.Design.TextInputLayout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Enr_Number"
@@ -133,14 +131,13 @@
                         android:id="@+id/et_enr_number"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:drawableRight="@drawable/ic_smartphone"
+                        android:drawableEnd="@drawable/ic_smartphone"
                         android:inputType="number"
                         android:maxLines="1" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/email"
-                    style="@style/Widget.Design.TextInputLayout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Email"
@@ -154,7 +151,7 @@
                         android:id="@+id/et_register_email"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:drawableRight="@drawable/ic_baseline_email_24"
+                        android:drawableEnd="@drawable/ic_baseline_email_24"
                         android:inputType="textEmailAddress"
                         android:maxLines="1" />
                 </com.google.android.material.textfield.TextInputLayout>
@@ -203,7 +200,6 @@
 
                 <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/password"
-                    style="@style/Widget.Design.TextInputLayout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
@@ -219,13 +215,12 @@
                         android:id="@+id/et_register_password"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:drawableRight="@drawable/ic_password"
+                        android:drawableEnd="@drawable/ic_password"
                         android:inputType="textPassword" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/cpassword"
-                    style="@style/Widget.Design.TextInputLayout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Confirm Password"
@@ -239,7 +234,7 @@
                         android:id="@+id/et_register_cpassword"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:drawableRight="@drawable/ic_password"
+                        android:drawableEnd="@drawable/ic_password"
                         android:inputType="textPassword" />
                 </com.google.android.material.textfield.TextInputLayout>
 
