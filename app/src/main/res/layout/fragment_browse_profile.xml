@@ -32,7 +32,7 @@
             android:id="@+id/autoCompleteTvBranch"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Select College"
+            android:hint="Select Branch"
             android:inputType="none"
             tools:ignore="TextContrastCheck" />
 
@@ -53,7 +53,7 @@
             android:id="@+id/autoCompleteTvSem"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Select branch"
+            android:hint="Select Profile"
             android:inputType="none"
             tools:ignore="TextContrastCheck" />
 
