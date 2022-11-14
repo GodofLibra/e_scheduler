@@ -15,20 +15,20 @@
       <root url="file://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/9dd10167c8acc530fda634605472e2e2/transformed/jetified-firebase-ui-common-8.0.0/res" />
       <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/9dd10167c8acc530fda634605472e2e2/transformed/jetified-firebase-ui-common-8.0.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../Capstone-project/caches/transforms-3/9dd10167c8acc530fda634605472e2e2/transformed/jetified-firebase-ui-common-8.0.0/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9dd10167c8acc530fda634605472e2e2/transformed/jetified-firebase-ui-common-8.0.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9dd10167c8acc530fda634605472e2e2/transformed/jetified-firebase-ui-common-8.0.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/9dd10167c8acc530fda634605472e2e2/transformed/jetified-firebase-ui-common-8.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/transforms-3/9dd10167c8acc530fda634605472e2e2/transformed/jetified-firebase-ui-common-8.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/modules-2/files-2.1/com.firebaseui/firebase-ui-common/8.0.0/3e1a51251cbbfabd0918562eddc55a1c69a4adf4/firebase-ui-common-8.0.0-javadoc.jar!/" />
       <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/modules-2/files-2.1/com.firebaseui/firebase-ui-common/8.0.0/3e1a51251cbbfabd0918562eddc55a1c69a4adf4/firebase-ui-common-8.0.0-javadoc.jar!/" />
       <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/modules-2/files-2.1/com.firebaseui/firebase-ui-common/8.0.0/3e1a51251cbbfabd0918562eddc55a1c69a4adf4/firebase-ui-common-8.0.0-javadoc.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.firebaseui/firebase-ui-common/8.0.0/3e1a51251cbbfabd0918562eddc55a1c69a4adf4/firebase-ui-common-8.0.0-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/modules-2/files-2.1/com.firebaseui/firebase-ui-common/8.0.0/3e1a51251cbbfabd0918562eddc55a1c69a4adf4/firebase-ui-common-8.0.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/modules-2/files-2.1/com.firebaseui/firebase-ui-common/8.0.0/db7929813ee943eeb18be1a2355436d3c00539c1/firebase-ui-common-8.0.0-sources.jar!/" />
       <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/modules-2/files-2.1/com.firebaseui/firebase-ui-common/8.0.0/db7929813ee943eeb18be1a2355436d3c00539c1/firebase-ui-common-8.0.0-sources.jar!/" />
       <root url="jar://$PROJECT_DIR$/../Capstone-project/caches/modules-2/files-2.1/com.firebaseui/firebase-ui-common/8.0.0/db7929813ee943eeb18be1a2355436d3c00539c1/firebase-ui-common-8.0.0-sources.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.firebaseui/firebase-ui-common/8.0.0/db7929813ee943eeb18be1a2355436d3c00539c1/firebase-ui-common-8.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/AndroidStudioProjects/Capstone-project/caches/modules-2/files-2.1/com.firebaseui/firebase-ui-common/8.0.0/db7929813ee943eeb18be1a2355436d3c00539c1/firebase-ui-common-8.0.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
