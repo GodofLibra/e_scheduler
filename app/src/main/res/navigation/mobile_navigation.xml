@@ -62,4 +62,12 @@
         android:id="@+id/additionalProfileFragment"
         android:name="com.example.e_scheduler.fragments.AdditionalProfileFragment"
         android:label="AdditionalProfileFragment" />
+    <fragment
+        android:id="@+id/addMaterialFragment"
+        android:name="com.example.e_scheduler.fragments.AddMaterialFragment"
+        android:label="AddMaterialFragment" />
+    <fragment
+        android:id="@+id/materialFragment"
+        android:name="com.example.e_scheduler.fragments.MaterialFragment"
+        android:label="MaterialFragment" />
 </navigation>

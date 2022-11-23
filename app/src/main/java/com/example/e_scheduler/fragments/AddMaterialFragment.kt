@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.ArrayAdapter
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.example.e_scheduler.R
 import com.example.e_scheduler.entity.Material
 import com.google.firebase.firestore.FirebaseFirestore
@@ -46,7 +47,7 @@ class AddMaterialFragment : Fragment(R.layout.fragment_add_material) {
                 val uid = UUID.randomUUID().toString()
                 val material = Material(
                     uid = uid,
-                    sem = semesters.indexOf(autoCompleteTvSem.text.trim().toString()) + 1,
+                    sem = autoCompleteTvSem.text.trim().toString(),
                     branch = autoCompleteTvBranch.text.trim().toString(),
                     uploadTime = System.currentTimeMillis(),
                     topic = et_material_topic.text?.trim().toString(),
@@ -55,6 +56,7 @@ class AddMaterialFragment : Fragment(R.layout.fragment_add_material) {
                 )
 
                 materials.document(uid).set(material).await()
+                findNavController().navigate(R.id.homeFragment)
             }
 
         }

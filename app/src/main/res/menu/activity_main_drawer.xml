@@ -19,6 +19,10 @@
             <item
                 android:id="@+id/manageNoticeFragment"
                 android:title="Manage Notices" />
+
+            <item
+                android:id="@+id/addMaterialFragment"
+                android:title="Add Material" />
         </menu>
 
 
@@ -40,5 +44,9 @@
     <item
         android:id="@+id/dashboardFragment"
         android:title="Profile" />
+
+    <item
+        android:id="@+id/materialFragment"
+        android:title="Materials"/>
 
 </menu>

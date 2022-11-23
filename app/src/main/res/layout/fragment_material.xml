@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
-    tools:context="">
+    android:background="#ffffff">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -49,7 +48,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ListView
-        android:id="@+id/lv_notes"
+        android:id="@+id/lv_resource"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginStart="15dp"

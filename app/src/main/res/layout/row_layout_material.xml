@@ -8,15 +8,17 @@
     android:layout_marginTop="10dp"
     android:layout_marginEnd="10dp"
     android:layout_marginBottom="20dp"
-
     app:cardCornerRadius="10dp">
+
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/parent_layout_material"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/row_material_bg"
         android:padding="20dp">
+
         <TextView
-            android:id="@+id/note_title"
+            android:id="@+id/tv_topic"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Resource Title"
@@ -24,23 +26,26 @@
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintTop_toTopOf="parent" />
+
         <TextView
-            android:id="@+id/note_sub_title"
+            android:id="@+id/tv_url"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:text="Resource Subject"
+            android:text="Resource url"
+            android:autoLink="web"
             android:textColor="@color/teal_700"
             android:textSize="14sp"
-            app:layout_constraintTop_toBottomOf="@id/note_title" />
+            app:layout_constraintTop_toBottomOf="@id/tv_topic" />
+
         <TextView
-            android:id="@+id/note_description"
+            android:id="@+id/tv_description_material"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Resource Descripetion"
             android:textColor="@color/teal_700"
             android:textSize="16sp"
-            app:layout_constraintTop_toBottomOf="@id/note_sub_title" />
+            app:layout_constraintTop_toBottomOf="@id/tv_url" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>
