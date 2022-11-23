@@ -29,6 +29,12 @@
         <item>CE-AI</item>
     </string-array>
 
+    <string-array name="roles">
+        <item>Student</item>
+        <item>Admin</item>
+        <item>Professor</item>
+    </string-array>
+
     <string-array name="blood">
         <item>A+</item>
         <item>A-</item>

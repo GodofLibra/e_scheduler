@@ -57,6 +57,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
             navMenu.findItem(R.id.manageAnnouncementFragment).isVisible = user.role == "Admin"
             navMenu.findItem(R.id.manageNoticeFragment).isVisible = user.role == "Admin"
             navMenu.findItem(R.id.addMaterialFragment).isVisible = user.role == "Admin"
+            navMenu.findItem(R.id.browseProfileFragment).isVisible = user.role == "Admin"
         }
 
         CoroutineScope(Dispatchers.Main).launch {

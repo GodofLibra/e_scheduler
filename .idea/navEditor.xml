@@ -44,6 +44,18 @@
                       </LayoutPositions>
                     </value>
                   </entry>
+                  <entry key="browseProfileFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="230" />
+                            <option name="y" value="724" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
                   <entry key="dashboardFragment">
                     <value>
                       <LayoutPositions>
@@ -61,7 +73,7 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="230" />
+                            <option name="x" value="448" />
                             <option name="y" value="724" />
                           </Point>
                         </option>
@@ -142,7 +154,7 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="448" />
+                            <option name="x" value="666" />
                             <option name="y" value="724" />
                           </Point>
                         </option>

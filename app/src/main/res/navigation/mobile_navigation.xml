@@ -70,4 +70,8 @@
         android:id="@+id/materialFragment"
         android:name="com.example.e_scheduler.fragments.MaterialFragment"
         android:label="MaterialFragment" />
+    <fragment
+        android:id="@+id/browseProfileFragment"
+        android:name="com.example.e_scheduler.fragments.BrowseProfileFragment"
+        android:label="BrowseProfileFragment" />
 </navigation>

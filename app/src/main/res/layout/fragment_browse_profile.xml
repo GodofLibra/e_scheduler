@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
     <TextView
         android:id="@+id/tv_headingname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Browse Profile"
-        android:textSize="25sp"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:layout_marginTop="35dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/tl_branch"
-        android:textAlignment="center"
         android:layout_marginLeft="15dp"
-        app:layout_constraintLeft_toLeftOf="parent"/>
+        android:layout_marginTop="35dp"
+        android:text="Browse Profile"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tl_branch"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tl_branch"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
@@ -64,8 +66,20 @@
         android:id="@+id/btn_search"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
         android:layout_margin="15dp"
-        android:text="Search"/>
+        android:text="Search"
+        app:layout_constraintTop_toBottomOf="@id/tl_profile" />
+
+    <ListView
+        android:id="@+id/lv_resource"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:dividerHeight="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_search"
+        tools:listitem="@layout/row_layout_users" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

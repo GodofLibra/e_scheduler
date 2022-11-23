@@ -23,6 +23,11 @@
             <item
                 android:id="@+id/addMaterialFragment"
                 android:title="Add Material" />
+
+            <item
+                android:id="@+id/browseProfileFragment"
+                android:title="Browse Profile" />
+
         </menu>
 
 
@@ -47,6 +52,6 @@
 
     <item
         android:id="@+id/materialFragment"
-        android:title="Materials"/>
+        android:title="Materials" />
 
 </menu>
