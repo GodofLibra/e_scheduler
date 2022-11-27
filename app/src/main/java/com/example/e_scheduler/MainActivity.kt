@@ -52,16 +52,28 @@ class MainActivity : AppCompatActivity() {
             )
         ).setOpenableLayout(drawerLayout).build()
         setupActionBarWithNavController(navController, appBarConfiguration)
+        bottom_nav_bar.setupWithNavController(navController)
         navView.setupWithNavController(navController)
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration)
         NavigationUI.setupWithNavController(navView, navController)
 
 
         navController.addOnDestinationChangedListener { _, destination, _ ->
-            if (destination.id in listOf(R.id.loginActivity, R.id.signUpActivity, R.id.additionalProfileFragment)) {
+            if (destination.id in listOf(
+                    R.id.loginActivity,
+                    R.id.signUpActivity,
+                    R.id.additionalProfileFragment
+                )
+            ) {
+                bottom_nav_bar.visibility = View.GONE
                 toolbar.visibility = View.GONE
                 drawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED)
+            } else if (destination.id == R.id.materialFragment) {
+                bottom_nav_bar.visibility = View.GONE
+                toolbar.visibility = View.VISIBLE
+                drawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_UNLOCKED)
             } else {
+                bottom_nav_bar.visibility = View.VISIBLE
                 toolbar.visibility = View.VISIBLE
                 drawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_UNLOCKED)
             }
