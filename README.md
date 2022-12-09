@@ -18,7 +18,7 @@ Open Adroid Studio and the app will autometically build itself
     
 ## Screenshots
 
-![App Screenshot](img width="741" alt="SS" src="https://user-images.githubusercontent.com/67241289/206667565-9cbf3185-f374-481d-9666-7b176e23d3f6.png")
+<img width="741" alt="SS" src="https://user-images.githubusercontent.com/67241289/206667565-9cbf3185-f374-481d-9666-7b176e23d3f6.png">
 
 
 
